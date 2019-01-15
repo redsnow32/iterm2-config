@@ -20,9 +20,9 @@ Install [iTerm2](https://www.iterm2.com)
 
 - Manually:
 
-  1. Click the download link included on the page provided above.
+  - Click the download link included on the page provided above
 
-  2. Click and drag the iterm icon from your Downloads folder to the Applications folder.
+  - Click and drag the iterm icon from your Downloads folder to the Applications folder
 
   ![iTerm-Application](https://gist.githubusercontent.com/redsnow32/2b96d17fada6e0832888497d7c773c5a/raw/f43adcdfd231c06e0b2a42e7b55db5121be7790e/iterm-download.png)
 
@@ -60,9 +60,9 @@ Install tmux
 
     brew install tmux
 
-- tmux is a [terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer) that allows you to maintain persistant working state, while attaching and re-attaching to that session at will.
+- tmux is a [terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer) that allows you to maintain persistant working state, while attaching and re-attaching to that session at will
 
-* I currently have my [tmux.conf](https://gist.github.com/redsnow32/4127ed1b022339c4ee470151d9e73518) mapped to match the vim key-bindings.
+* I currently have my [tmux.conf](https://gist.github.com/redsnow32/4127ed1b022339c4ee470151d9e73518) mapped to match the vim key-bindings
 
 Install tmuxinator
 
@@ -75,6 +75,6 @@ Create a new config file for your project by running mux new `any name you want`
 - This file gets saved as a .yml file in a `~/.tmuxinator directory`
 - Edit the script via `mux edit "name you created above"`
 
-* Here you're able to configure the layout of your terminal when firing up your app. You're able to fire up multiple instances within one session and work between each service.
+* Here you're able to configure the layout of your terminal when firing up your app. You're able to fire up multiple instances within one session and work between each service
 
 Run your project via `mux "name created above"`
