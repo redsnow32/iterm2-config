@@ -4,7 +4,7 @@
 
 The goal of this document is to show my current terminal setup utilizing iTerm2, zsh, Oh-my-ZSH, tmux and turminator. All dependents were installed utilizing [Homebrew](https://brew.sh/). This setup is especially helpful as a full stack engineer; It allows me to run all of my apps/services in one terminal session.
 
-##Setup
+**Setup**
 
 Install [Homebrew](https://brew.sh/)
 
